@@ -1,0 +1,6 @@
+<h1 class="border-bottom">Articles</h1>
+
+<% @articles.each do |article|  %>
+<p><strong>Title:</strong><%= article.title %> |
+<strong>Content:</strong><%= article.content %></p>
+<% end %>
